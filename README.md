@@ -1,8 +1,4 @@
-### Hi there 👋
-
-**IanSmith44/IanSmith44** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
+![cool-kid-4238698](https://user-images.githubusercontent.com/111456946/185216407-9aa6b95f-8121-4f5e-8e92-5f97c117e19e.jpg)
 
 -  I’m currently working on a thing
 -  I’m currently learning a thing
