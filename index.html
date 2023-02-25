@@ -8,12 +8,39 @@
     <link rel="stylesheet" href="index.css" />
     <script src="index.js"></script>
   </head>
-  <body id="body">
-    <h1>Ian Smith</h1>
-    <h2>Skillset</h2>
-    <p>Web developer, game developer, programmer</p>
-    <h2>Languages</h2>
-    <p>C#, Python, HTML, CSS, JS</p>
-    <h1>Projects</h1>
+  <body>
+    <div class="container">
+      <div>
+        <nav class="navbar">
+          <!-- LOGO -->
+          <a href="index.html" class="logo">Ian Smith</a>
+          <!-- NAVIGATION MENU -->
+          <ul class="nav-links">
+            <!-- USING CHECKBOX HACK -->
+            <input type="checkbox" id="checkbox_toggle" />
+            <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+            <!-- NAVIGATION MENUS -->
+            <div class="menu">
+              <li><a href="index.html">Home</a></li>
+              <!--<li><a href="/">About</a></li>-->
+              <li class="services">
+                <a href="#projects">Projects</a>
+                <!-- DROPDOWN MENU -->
+                <ul class="dropdown">
+                  <li><a href="fta.html">From The Ashes</a></li>
+                  <li><a href="gtd.html">Grant Tower Defense</a></li>
+                  <li><a href="ISFS.html">Flight Simulator</a></li>
+                  <li><a href="rage.html">Rage Game</a></li>
+                  <li><a href="ohio-sim.html">Party Game</a></li>
+                </ul>
+              </li>
+              <!--<li><a href="/">Pricing</a></li>
+              <li><a href="/">Contact</a></li>-->
+            </div>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <h1>test</h1>
   </body>
 </html>
